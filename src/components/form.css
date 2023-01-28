@@ -1,0 +1,16 @@
+input {
+    border: 2px solid #73A9AD;
+    border-radius: 6px;
+    width: 220px;
+    padding: 6px 12px;
+    outline: none;
+}
+
+.contact_add-btn {
+    border: none;
+    background-color: #C4DFAA;
+    border-radius: 6px;
+    width: 100px;
+    padding: 6px 12px;
+    outline: none;
+}
