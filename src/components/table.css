@@ -20,3 +20,7 @@ th {
 tr:nth-child(odd) {
     background-color: #F5F0BB;
 }
+
+span{
+    cursor: pointer;
+}
