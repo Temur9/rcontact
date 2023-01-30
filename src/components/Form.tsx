@@ -26,8 +26,6 @@ interface IEditArr {
 
 const Form = () => {
   const [contacts, setContacts] = useState<IContact[]>([]);
-  const [editContact, setEditContact] = useState();
-  const [value, setValue] = useState<any>("");
   const [name, setName] = useState<any>("");
   const [phone, setPhone] = useState<any>("");
   const [email, setEmail] = useState<any>("");
