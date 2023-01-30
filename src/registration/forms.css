@@ -1,0 +1,43 @@
+.login__section,
+.signup__section {
+    width: 300px;
+    height: 320px;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 35px;
+background: #C4DFAA;
+box-shadow:  5px 5px 10px #c7c7c7,
+             -5px -5px 10px #f9f9f9;
+    border-radius: 16px;
+}
+
+.login_container,
+.signup_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form__section{
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+button{
+    background-color: #F6D6AD;
+    padding: 10px 24px;
+    border-radius: 16px;
+}
+
+h1{
+    margin-bottom: 16px;
+    text-align: center;
+}
+.auth-form {
+    margin-bottom: 16px;
+    width: 100%;
+}
+p{
+text-align: center;
+}

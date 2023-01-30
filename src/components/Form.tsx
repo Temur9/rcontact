@@ -137,7 +137,7 @@ const Form = () => {
             placeholder="Теги"
           />
           <button className="contact_add-btn">Добавить</button>
-          <button onClick={updateHandler} className="contact_add-btn">Изменить</button>
+          {/* <button onClick={updateHandler} className="contact_add-btn">Изменить</button> */}
         </form>
 
         <div className="table">

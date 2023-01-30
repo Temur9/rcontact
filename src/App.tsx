@@ -6,18 +6,16 @@ import SignUp from "./registration/SignUp";
 
 
 
-
 function App() {
   return (
     <>
-    <BrowserRouter>
     <Navbar/>
       <Routes>
         <Route path='/' element={<Contact/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<SignUp/>}/>
       </Routes>
-    </BrowserRouter>
+    
     </>
   );
 }
