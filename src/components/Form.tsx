@@ -115,24 +115,28 @@ const Form = () => {
             onChange={(name) => setName(name.target.value)}
             type="text"
             placeholder="Ф.И.О."
+            required
           />
           <input
             value={phone}
             onChange={(phone) => setPhone(phone.target.value)}
             type="text"
             placeholder="Номер телефона"
+            required
           />
           <input
             value={email}
             onChange={(email) => setEmail(email.target.value)}
             type="text"
             placeholder="Email"
+            required
           />
           <input
             value={tags}
             onChange={(tags) => setTags(tags.target.value)}
             type="text"
             placeholder="Теги"
+            required
           />
           <button className="contact_add-btn">Добавить</button>
           {/* <button onClick={updateHandler} className="contact_add-btn">Изменить</button> */}

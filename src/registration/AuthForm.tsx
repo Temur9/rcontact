@@ -17,6 +17,7 @@ const AuthForm: FC<FormProps> = ({ title, handleClick }) => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="email"
+          required
         />
         <input
           className="auth-form"
@@ -24,6 +25,7 @@ const AuthForm: FC<FormProps> = ({ title, handleClick }) => {
           value={pass}
           onChange={(e) => setPass(e.target.value)}
           placeholder="password"
+          required
         />
         <button onClick={() => handleClick(email, pass)}>{title}</button>
       </div>
